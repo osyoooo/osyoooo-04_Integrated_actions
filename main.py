@@ -4,6 +4,7 @@ from gspread_dataframe import set_with_dataframe
 from google.oauth2.service_account import Credentials
 from oauth2client.service_account import ServiceAccountCredentials
 import os
+import json
 
 # Google APIへのアクセスにはOAuth 2.0という認証プロトコルが使用されており、scope呼ばれる権限の範囲を使ってアクセスを制御
 scope = [
